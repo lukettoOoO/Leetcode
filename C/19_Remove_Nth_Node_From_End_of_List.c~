@@ -31,6 +31,5 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n) {
         prev = p;
         p = p->next;
     }
-    
     return head;
 }
